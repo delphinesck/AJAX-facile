@@ -1,0 +1,113 @@
+html, body {
+    background-color: #c4a384;
+    font-family: 'Roboto-light', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#add {
+    position: fixed;
+    height: 100%;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    display: block;
+    padding: 0px 20px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    background-color: white;
+    display: none;
+    padding: 50px 50px 0px 30px;
+    margin-left: 50px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.75);
+}
+
+input[type=text]{
+    width: 250px;
+}
+
+textarea {
+    width: 250px;
+    height: 80px;
+}
+
+#rappels_box {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px 0px 200px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    width: 250px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.rappel {
+    display: block;
+    width: 210px;
+    min-height: 100px;
+    background-color: lightyellow;
+    -webkit-box-shadow: 7px 8px 30px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 7px 8px 30px -4px rgba(0,0,0,0.6);
+    box-shadow: 7px 8px 30px -4px rgba(0,0,0,0.6);
+    padding: 20px;
+    margin: 30px;
+}
+
+h3 {
+    font-family: 'Schoolbell', cursive;
+    font-size: 24px;
+    margin: 18px 0px;
+    text-align: center;
+}
+
+p {
+    padding: 7px 0px;
+    line-height: 150%;
+}
+
+.dates {
+    text-align: center;
+    font-size: 12px;
+}
+
+.details {
+    display: none;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 13px;
+    width: 140px;
+    padding: 15px;
+}

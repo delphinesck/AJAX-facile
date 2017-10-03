@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rappels</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+    <div id="add">+</div>
+
+    <div id="sidebar">
+        <form id="new_rappel">
+            <h2>Nouveau rappel</h2>
+            <label>Titre</label><br />
+            <input type="text" id="titre"><br /><br />
+            <label>Description de l'événement</label><br />
+            <textarea id="description"></textarea><br /><br />
+            <label>Date de début</label><br />
+            <input type="text" id="date_debut"><br /><br />
+            <label>Date de fin</label><br />
+            <input type="text" id="date_fin"><br /><br />
+            <input type="submit" value="Créer">
+        </form>
+    </div>
+
+    <h1>Ne pas oublier...</h1>
+
+    <section>
+    <div id="rappels_box">
+        <!-- <div class="rappel">
+            <h3>Titre du rappel</h3>
+            <p class="descri">Description de l'événement dbjhfjefh dz  szdqzdzddz zd</p>
+            <p class="dates">du 01/01/01 au 01/01/01</p>
+        </div> -->
+    </div>
+    </section>
+
+    <nav>
+        <label><input type="checkbox" name="select_statut" class="select_statut" id="expired"> Afficher seulement les rappels périmés</label><br /><br />
+        <button id="suppr_expired">Tout supprimer</button>
+    </nav>
+    
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="class/Rappel.js"></script>
+    <script src="class/App.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
